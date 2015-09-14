@@ -5,19 +5,19 @@ public class main {
 	{
 		Scanner input = new Scanner(System.in);
 		System.out.println("How many touchdowns?");
-		int touchdowns = input.nextInt();
+		double touchdowns = input.nextDouble();
 		
 		System.out.println("How many total yards?");
-		int totalYards = input.nextInt();
+		double totalYards = input.nextDouble();
 		
 		System.out.println("How many interceptions?");
-		int interceptions = input.nextInt();
+		double interceptions = input.nextDouble();
 		
 		System.out.println("How many completions");
-		int completions = input.nextInt();
+		double completions = input.nextDouble();
 		
 		System.out.println("What is the total number of passes attempted?");
-		int passesAttempted = input.nextInt();
+		double passesAttempted = input.nextDouble();
 		
 		//arbitrary values for formula
 		double a = (completions/passesAttempted-0.3)*5;
