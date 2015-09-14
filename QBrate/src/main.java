@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class main {
-	
+	// helllow
 	public static void QBrating() 
 	{
 		Scanner input = new Scanner(System.in);
